@@ -1,16 +1,23 @@
-# React + Vite
+# React + Tailwind CSS Art Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive storefront landing page built to practice **React functional components** and **Tailwind CSS utility classes**. This project demonstrates a clean UI for an art gallery or e-commerce product listing.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Responsive Navbar**: A sticky navigation bar with a branded logo and menu links.
+- **Product Grid**: A dynamic layout using Tailwind's Grid system (`grid-cols-1`, `md:grid-cols-2`, `lg:grid-cols-4`).
+- **Hover Effects & Shadows**: Utilizes Tailwind's elevation and border-radius utilities for a premium look.
+- **Mobile First**: Fully optimized for mobile, tablet, and desktop screens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Bundler**: Vite
 
-## React Compiler
+## 📸 Preview
+The application displays a collection of paintings (Mountain, Camp Fire, Landscape, Sunset) with pricing and interactive "Buy Now" buttons.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com
